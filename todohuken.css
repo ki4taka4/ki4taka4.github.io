@@ -1,0 +1,44 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+#container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+#top-wrapper {
+  background-image: url("sato");
+  background-size: cover;
+  text-align: center;
+}
+
+header {
+background-color: rgba(34, 49, 52, 0.9);
+z-index: 10;
+height: 65px;
+position: fixed;
+color:white;
+width: 100%;
+}
+
+#header-left.img {
+
+}
